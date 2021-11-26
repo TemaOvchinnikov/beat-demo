@@ -14,10 +14,10 @@ import { RouterModule } from '@angular/router';
     AlbumItemComponent,
     PaginationComponent,
     BreadcrumbsComponent,
-    NavigationComponent,
-    TopNavigationComponent,
+    //NavigationComponent,
+    //TopNavigationComponent,
   ],
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule],
   //exports: [AlbumComponent],
 })
 export class AlbumModule {}
